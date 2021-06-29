@@ -1,4 +1,4 @@
-# Building Nested Hashes Code-Along Part 2
+<!-- # Building Nested Hashes Code-Along Part 2
 
 ## Learning Goals
 
@@ -25,9 +25,9 @@ hash[:first]
 ```
 
 To access the values in a nested hash, we simply tack on additional keys,
-until we have the last key that points to the value we want to access.
+until we have the last key that points to the value we want to access. -->
 
-For example, if we had the following hash:
+<!-- For example, if we had the following hash:
 
 ```rb
 epic_tragedy = {
@@ -93,9 +93,9 @@ puts epic_tragedy
 }
 ```
 
-![Montague/Capulet Family Tree w/ Michael Jordan](https://curriculum-content.s3.amazonaws.com/programming-univbasics-4/nested-hashes/Image_8_NestedHash.png)
+![Montague/Capulet Family Tree w/ Michael Jordan](https://curriculum-content.s3.amazonaws.com/programming-univbasics-4/nested-hashes/Image_8_NestedHash.png) -->
 
-### Arrays in Hashes
+<!-- ### Arrays in Hashes
 
 In the `epic_tragedy` hash, both the `:montague` and `:capulet` nested hashes
 contain arrays, `:hero_friends` and `heroine_friends`. Similar to how we chain
@@ -114,9 +114,9 @@ And if we wanted to go further, we can continue to chain brackets:
 ```ruby
 epic_tragedy[:montague][:hero_friends][1][:name]
 #  => "Mercutio"
-```
+``` -->
 
-### Challenge
+<!-- ### Challenge
 
 In `lib/updating_nested_hashes.rb`, your task is to finish two methods,
 `update_status` and `add_characters`. In each, a hash is provided that need to
@@ -130,9 +130,9 @@ We've come to the end of the epic tragedy of Romeo and Juliet. At this point in
 the story, Romeo and Juliet are — as in every good tragedy — quite dead.
 
 Add code to the `update_status` method to change the status of our hero Romeo
-and our heroine Juliet from "alive" to "dead".
+and our heroine Juliet from "alive" to "dead". -->
 
-### `fix_roles`
+<!-- ### `fix_roles`
 
 In the second method for this lab, `add_characters`, we are starting again with
 an `epic_tragedy` hash. This time your task is to add some nested content into
@@ -235,7 +235,7 @@ epic_tragedy[:montague][:hero][:status] = "dead"
 ```
 
 For Juliet, we follow the same process using the `:capulet` and `:heroine` keys
-instead.
+instead. -->
 
 ### `add_characters`
 
